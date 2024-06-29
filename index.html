@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="aghamenonestudosiconv2.ico" type="image/x-icon" >
+    <link rel="icon" href="aghamenonestudosiconv2.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,10 +35,18 @@
                 </button>
                 <ul class="menu" id="menu" role="menu">
                     <li><a href="index.html">Início</a></li>
-                  <li><a href="Serviços.html">Serviços</a></li>
-                  <li><a href="Sobre.html">Sobre</a></li>
-                  <li><a href="Contato.html">Suporte</a></li>
-                  <li><a><button id="openUpdatesBtn">Últimas Atualizações</button></a></li>
+                    <li class="nav-item dropdown">
+                        <a href="Serviços.html" class="nav-link">Serviços</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#">Serviço 1</a></li>
+                            <li class="dropdown-item"><a href="#">Serviço 2</a></li>
+                            <li class="dropdown-item"><a href="#">Serviço 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Sobre.html">Sobre</a></li>
+                    <li><a href="Simulados/Simulado.html">Simulado</a></li>
+                    <li><a href="Contato.html">Suporte</a></li>
+                    <li><a><button id="openUpdatesBtn">Últimas Atualizações</button></a></li>
                 </ul>
             </nav> 
         </header>
